@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.contentSelect {
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+.grupoSelect {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.seccionBlanca {
+    background-color: white;
+    height: 280px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    color: gray;
+    margin: 3rem 0;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fechaEnLinea {
+    margin-top: -56px;
+}
+
+#fechaOrigen {
+    color: blue;
+    background-color: rgb(4 35 255 / 21%);
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fechaDestino {
+    color: green;
+    background-color: rgba(0 128 0/ 21%);
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boldP{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btnMasInfo{
+    display: none;
+}
+@media only screen and (max-width: 1300px) {
+    .contentSelect {
+        width: 100%;
+    }
+
+    #fechaOrigen {
+        width: 100% !important;
+    }
+
+    #fechaDestino {
+        width: 100% !important;
+    }
+}
